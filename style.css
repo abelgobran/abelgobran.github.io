@@ -1,0 +1,42 @@
+body {
+  background: #e2ebf0;
+}
+
+.beginning {
+  display: flex;
+  justify-content: center;
+}
+.nav-link > nav a {
+  display: float;
+  color: gray;
+  justify-content: space-around;
+  text-decoration-color: blanchedalmond;
+  padding: 80px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link > nav :hover {
+  color: darkslategrey;
+  text-decoration-color: darkslategray;
+}
+
+.header {
+  display: grid;
+  align-content: center;
+  margin-bottom: 0.1em;
+  padding: 1px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: grid;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto, auto, auto, auto;
+}
