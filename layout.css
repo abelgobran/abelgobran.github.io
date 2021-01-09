@@ -1,0 +1,19 @@
+.header {
+  display: grid;
+  align-content: center;
+  margin-bottom: 0.1em;
+  padding: 1px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display: grid;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto, auto, auto, auto;
+}

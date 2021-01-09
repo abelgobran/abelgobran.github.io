@@ -40,3 +40,11 @@ h1 {
   display: grid;
   grid-template-rows: auto, auto, auto, auto;
 }
+
+.grid > .prject-section > .project-photo {
+  border-image-source: url(border.png);
+  border-image-width: 10px;
+}
+.resume-photo {
+  padding: 10px;
+}
